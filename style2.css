@@ -168,10 +168,10 @@ select:visited {
   }
 }
 @keyframes toLeftFromRight {
-  49% {
+  /* 49% {
     -webkit-transform: translateX(20%);
             transform: translateX(20%);
-  }
+  } */
   50% {
     opacity: 0;
     -webkit-transform: translateX(-20%);
@@ -2353,3 +2353,4 @@ select:visited {
     font-size: 10px;
   }
 }
+

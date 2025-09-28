@@ -169,7 +169,7 @@ select:visited {
       0% {
         transform: translateX(0);   /* Start at normal position */
       }
-      100% {
+      70% {
         transform: translateX(-40%); /* Move only 40% left */
       }
     }
@@ -2345,4 +2345,5 @@ full-body-banner-img {
     font-size: 10px;
   }
 }
+
 

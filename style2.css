@@ -155,18 +155,32 @@ select:visited {
   position: absolute;
 }
 
-
+@-webkit-keyframes toLeftFromRight {
+  49% {
+    -webkit-transform: translateX(20%);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateX(-20%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
 @keyframes toLeftFromRight {
-  /* 49% {
+  49% {
     -webkit-transform: translateX(20%);
             transform: translateX(20%);
-  } */
-  30% {
+  }
+  50% {
     opacity: 0;
     -webkit-transform: translateX(-20%);
             transform: translateX(-20%);
   }
- 
+  51% {
+    opacity: 1;
+  }
+}
 .scrollup {
   width: 55px;
   right: 20px;
@@ -991,7 +1005,7 @@ select:visited {
   margin-left: 80px;
 }
 
-.full-body-banner-img {
+full-body-banner-img {
   position: absolute;
   animation: rightToLeft 5s ease-in-out infinite;
 }
@@ -2339,6 +2353,3 @@ select:visited {
     font-size: 10px;
   }
 }
-
-
-

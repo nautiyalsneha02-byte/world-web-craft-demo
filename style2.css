@@ -155,18 +155,7 @@ select:visited {
   position: absolute;
 }
 
-@-webkit-keyframes toLeftFromRight {
-  49% {
-    -webkit-transform: translateX(20%);
-  }
-  50% {
-    opacity: 0;
-    -webkit-transform: translateX(-20%);
-  }
-  51% {
-    opacity: 1;
-  }
-}
+
 @keyframes toLeftFromRight {
   49% {
     -webkit-transform: translateX(20%);

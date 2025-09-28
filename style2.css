@@ -1413,7 +1413,7 @@ select:visited {
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(images/tst-bg.jpg);
+  background-image: url(tst-bg.jpg);
 }
 .full-body-testimonial-section .full-body-testi-shape {
   left: 0;

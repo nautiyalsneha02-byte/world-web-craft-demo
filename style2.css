@@ -630,7 +630,7 @@ select:visited {
   content: "";
   z-index: -3;
   position: absolute;
-  background-image: url(images/images16.jpg);
+  background-image: url(images16.jpg);
 }
 
 .full-body-banner-item {

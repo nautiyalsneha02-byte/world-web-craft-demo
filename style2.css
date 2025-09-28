@@ -161,7 +161,7 @@ select:visited {
     }
 
     .full-body-banner-img img {
-      width: 250px; /* adjust image size */
+      width: 100%; /* adjust image size */
       height: auto;
     }
 
@@ -2345,3 +2345,4 @@ full-body-banner-img {
     font-size: 10px;
   }
 }
+

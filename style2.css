@@ -155,21 +155,24 @@ select:visited {
   position: absolute;
 }
 
+  .full-body-banner-img {
+      position: absolute;
+      animation: rightToLeft 2s ease-in-out forwards;
+    }
 
-@keyframes toLeftFromRight {
-  49% {
-    -webkit-transform: translateX(20%);
-            transform: translateX(20%);
-  }
-  50% {
-    opacity: 0;
-    -webkit-transform: translateX(-20%);
-            transform: translateX(-20%);
-  }
-  51% {
-    opacity: 1;
-  }
-}
+    .full-body-banner-img img {
+      width: 250px; /* adjust image size */
+      height: auto;
+    }
+
+    @keyframes rightToLeft {
+      0% {
+        transform: translateX(0);   /* Start at normal position */
+      }
+      100% {
+        transform: translateX(-40%); /* Move only 40% left */
+      }
+    }
 .scrollup {
   width: 55px;
   right: 20px;

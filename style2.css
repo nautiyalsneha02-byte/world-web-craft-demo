@@ -1004,33 +1004,26 @@ select:visited {
 .full-body-cta-info-btn .full-body-btn {
   margin-left: 80px;
 }
-.full-body-banner-img {
-  position: absolute;
-  animation: rightToLeft 5s ease-in-out infinite;
-}
-
-@keyframes rightToLeft {
-  0% {
-    transform: translateX(100%); /* Start outside from right */
-    opacity: 0;
-  }
-  20% {
-    opacity: 1; /* Fade in while moving */
-  }
-  80% {
-    opacity: 1; /* Stay visible */
-  }
-  100% {
-    transform: translateX(-100%); /* Move out to the left */
-    opacity: 0;
-  }
-}
 
 
 
 .full-body-project-section .full-body-section-title.middle-align {
   max-width: 630px;
 }
+.full-body-banner-img {
+  position: absolute;
+  animation: rightToLeft 2s ease-in-out forwards;
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(0); /* Start at original position */
+  }
+  100% {
+    transform: translateX(-40%); /* Move only 40% to the left */
+  }
+}
+
 .full-body-project-section .full-body-project-content {
   padding-top: 50px;
 }

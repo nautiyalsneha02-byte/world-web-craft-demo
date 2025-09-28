@@ -161,15 +161,12 @@ select:visited {
     -webkit-transform: translateX(20%);
             transform: translateX(20%);
   } */
-  50% {
+  30% {
     opacity: 0;
     -webkit-transform: translateX(-20%);
             transform: translateX(-20%);
   }
-  51% {
-    opacity: 1;
-  }
-}
+ 
 .scrollup {
   width: 55px;
   right: 20px;
@@ -2342,5 +2339,6 @@ select:visited {
     font-size: 10px;
   }
 }
+
 
 

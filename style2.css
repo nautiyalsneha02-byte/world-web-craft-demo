@@ -165,14 +165,6 @@ select:visited {
       height: auto;
     }
 
-    @keyframes rightToLeft {
-      0% {
-        transform: translateX(0);   /* Start at normal position */
-      }
-      70% {
-        transform: translateX(-40%); /* Move only 40% left */
-      }
-    }
 .scrollup {
   width: 55px;
   right: 20px;
@@ -2345,5 +2337,6 @@ full-body-banner-img {
     font-size: 10px;
   }
 }
+
 
 
